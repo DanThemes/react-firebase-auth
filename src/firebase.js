@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import * as authObject from "firebase/auth";
+export * as auth from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -13,7 +13,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const auth = authObject;
 
 // export const getAuth = auth.getAuth();
 // export const createUserWithEmailAndPassword =
